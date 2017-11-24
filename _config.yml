@@ -1,0 +1,16 @@
+---
+title: Rotherham Council
+timezone: Europe/London
+name: Rotherham Council
+description: Council services online
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
