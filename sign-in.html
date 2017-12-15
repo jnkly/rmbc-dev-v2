@@ -3,23 +3,25 @@ title: Sign in
 layout: account
 ---
 
-<section class="pv3 bg-grey-20">
-  <form class="cf measure center">
-    <fieldset class="mh3 ph0 bn" id="sign-in">
-      <legend class="f2 purple mt3 mb0 fw8">Sign in to Your Account</legend>
-      <div class="mt3">
-        <label class="db f5 lh-copy mb2" for="email-address">Email</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="email-address" name="email-address" type="email">
+<section class="pv3 bg-grey-20" id="sign-in">
+  <div class="cf mw9 center">
+    <form class="measure">
+      <fieldset class="mh3 ph0 bn" id="sign-in">
+        <legend class="f2 purple mt3 mb0 fw8">Sign in to Your Account</legend>
+        <div class="mt3">
+          <label class="db f5 lh-copy mb2" for="email-address">Email</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="email-address" name="email-address" type="email">
+        </div>
+        <div class="mv3">
+          <label class="db lh-copy mb2" for="password">Password</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="password" name="password" type="password">
+        </div><label class="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"> Remember me</label>
+      </fieldset>
+      <div class="mh3">
+        <a class="dib muli f5 ph3 pv2 mb3 bg-purple link no-underline white hover-bg-pink br2 bn" href="{{site.baseurl}}/signed-in" type="submit">Sign in</a>
       </div>
-      <div class="mv3">
-        <label class="db lh-copy mb2" for="password">Password</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="password" name="password" type="password">
-      </div><label class="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"> Remember me</label>
-    </fieldset>
-    <div class="mh3">
-      <a class="dib muli f5 ph3 pv2 mb3 bg-purple link no-underline white hover-bg-pink br2 bn" href="{{site.baseurl}}/signed-in" type="submit">Sign in</a>
-    </div>
-    <div class="lh-copy mh3">
-      <p class="db"><a class="purple link hover-pink" href="#">Sign up</a></p>
-      <p class="db"><a class="purple link hover-pink" href="#">Forgot your password?</a></p>
-    </div>
-  </form>
-</section>  
+      <div class="lh-copy mh3">
+        <p class="db"><a class="purple link hover-pink" href="#">Sign up</a></p>
+        <p class="db"><a class="purple link hover-pink" href="#">Forgot your password?</a></p>
+      </div>
+    </form>
+  </div>
+</section> 
