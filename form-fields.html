@@ -7,44 +7,38 @@ layout: account-signed-in
   <div class="cf mw9 center pb2 ph3">
     <form class="measure center">
       <fieldset class="ph0 bn" id="sign-in">
-        <legend class="f2 purple mt3 mb0 fw8">Request help taking your bins out</legend>
-        <p class="f4 lh-copy">To get help taking your bins out, provide us with the following information.</p>
-        <fieldset class="bn">
-          <legend class="f4 mb2 mt3">Blame it on the:</legend> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="sunshine" type="radio" value="sunshine"><span class="ml2">Sunshine</span></label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="good_times" type="radio" value="good_times"><span class="ml2"></span>Good times</label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="boogie" type="radio" value="boogie"><span class="ml2">Boogie</span></label>
-        </fieldset>
-        <fieldset class="bn">
-          <legend class="f4 mt3">Click one box or more</legend> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="option_1" type="checkbox" value="1"><span class="ml2">option one</span></label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="option_2" type="checkbox" value="1"><span class="ml2"></span>option two</label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="option_3" type="checkbox" value="1"><span class="ml2">option three</span></label>
-          <p class="f6 mv2">Help: click any of the white blocks to select.</p>
-        </fieldset>
-        <div class="mt3">
-          <label class="db f4 lh-copy mb2" for="">Firstname</label> <input class="pa2 input-reset ba bw1 b--grey-30 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Surname</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Address 1</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Address 2</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Address 3</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3 w-30 w-30-m w-20-l">
-          <label class="db f4 lh-copy mb2" for="">Postcode</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Email</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Telephone</label> <input class="pa2 input-reset ba bw1 b--grey-30 w-100 br2" id="" name="" type="">
-        </div>
-        <div class="mv3">
-          <label class="db f4 lh-copy mb2" for="">Please tell us about the issue (required)</label> 
-          <textarea class="pa2 black-80 mb3 ba bw1 b--grey-30 w-100 br2" cols="60" name="textarea" placeholder="" rows="10"></textarea>
-        </div>
-      </fieldset><a class="dib muli f5 ph3 pv2 mt1 mb3 bg-purple link no-underline white hover-bg-pink br2 bn" href="{{site.baseurl}}/form-end">Submit</a> <a class="ml3 dib muli f5 ph3 pv2 mt1 mb3 bg-grey-30 link no-underline purple hover-bg-pink hover-white br2 bn" href="{{site.baseurl}}/form-start">Back</a>
+        <legend class="f2 purple mt3 mb0 fw8">Service name</legend>
+        <p class="f4 lh-copy">To use this service you must complete the following fields.</p><legend class="f4 mb2 mt2">Your name:</legend> <input class="pa2 black-80 mb3 ba bw1 br2 b--grey-40 w-100" name="contact" type="text"> <legend class="f4 mb2 mt2">Your email address:</legend> <input class="pa2 black-80 mb3 ba bw1 br2 b--grey-40 w-100" name="contact" type="text"> <legend class="f4 mt2">Select an option:</legend>
+        <p class="f6 mv2">You must select one of the following.</p><label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="contact" type="radio" value="radio_one"><span class="ml2">One</span></label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="contact" type="radio" value="radio_two"><span class="ml2"></span>Two</label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="contact" type="radio" value="radio_three"><span class="ml2">Three</span></label> <legend class="f4 mt4">Select all which apply:</legend>
+        <p class="f6 mv2">You can select any of the following.</p><label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="check_one" type="checkbox" value="1"><span class="ml2">One</span></label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="check_two" type="checkbox" value="1"><span class="ml2"></span>Two</label> <label class="db pa3 bg-white br2 mb3 ba bw1 b--grey-40"><input name="check_three" type="checkbox" value="1"><span class="ml2">Three</span></label> <legend class="f4 mb2 mt4">Select another option:</legend>
+        <p class="f6 mv2">You must select one of the following.</p><select class="pa2 ba bw1 br2 b--grey-40" name="select">
+          <option selected value="select_one">
+            One
+          </option>
+          <option value="select_two">
+            Two
+          </option>
+          <option value="select_three">
+            Three
+          </option>
+          <option value="select_four">
+            Four
+          </option>
+          <option value="select_five">
+            Five
+          </option>
+          <option value="select_six">
+            Six
+          </option>
+          <option value="select_seven">
+            Seven
+          </option>
+          <option value="select_eight">
+            Eight
+          </option>
+        </select> <legend class="f4 mb2 mt4">Tell us what you think of our service:</legend> 
+        <textarea class="w-100 pa2 mb3 ba bw1 br2 b--grey-40" name="textarea" rows="10"></textarea> <a class="dib muli f5 ph3 pv2 mt1 mb3 bg-purple link no-underline white hover-bg-pink br2 bn" href="{{site.baseurl}}/form-end">Submit</a> <a class="ml3 dib muli f5 ph3 pv2 mt1 mb3 bg-grey-30 link no-underline purple hover-bg-pink hover-white br2 bn" href="{{site.baseurl}}/form-start">Back</a>
+      </fieldset>
     </form>
   </div>
 </section>
